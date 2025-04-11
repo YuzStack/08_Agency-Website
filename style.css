@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+/* Header styling */
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ff6b6b;
+}
+
+/* Hero section styling */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(./assets/img/header-bg.jpg);
+    color: white;
+    padding: 20rem 10rem 20rem 57rem;
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+    background-position: contain;
+}
+
+.hero-text {
+    font-size: 5.2rem;
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+.hero-text strong {
+    font-weight: 700;
+}
+
+button {
+    background: linear-gradient(to right, #3b82f6, #8b5cf6, #8b5cf6);
+    color: white;
+    padding: 10px 30px;
+    border-style: none;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
