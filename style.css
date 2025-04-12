@@ -39,7 +39,7 @@ header a:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(./assets/img/header-bg.jpg);
     color: white;
     padding: 20rem 10rem 20rem 57rem;
-    height: 95vh;
+    height: 93vh;
     width: 100%;
     background-size: cover;
     background-position: contain;
@@ -55,7 +55,7 @@ header a:hover {
     font-weight: 700;
 }
 
-button {
+.hero button {
     background: linear-gradient(to right, #3b82f6, #8b5cf6, #8b5cf6);
     color: white;
     padding: 10px 30px;
@@ -64,4 +64,52 @@ button {
     font-size: 1.5rem;
     margin-top: 2rem;
     text-transform: uppercase;
+}
+
+/* Second section styling */
+.second-section {
+    margin: 7.2rem 5rem;
+    /* max-height: 100vh; */
+}
+
+.second-section .header {
+    text-align: center;
+    line-height: 1.7;
+}
+
+.second-section .header h1 {
+    font-size: 3rem;
+}
+
+.second-section .header p {
+    padding: 0 15rem;
+}
+
+.second-section .cards-container {
+    margin: 7rem 5.5rem;
+    display: flex;
+    gap: 30px;
+}
+
+.second-section .cards-container h3 {
+    margin: 30px 0 20px 0;
+    font-size: 1.4rem;
+}
+
+.second-section .cards-container svg {
+    width: 70px;
+    height: 70px;
+}
+
+.second-section .cards-container button {
+    margin: 25px 0 45px 0;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-style: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: inherit;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* border: black 0.01px solid; */
 }
