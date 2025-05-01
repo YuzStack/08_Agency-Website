@@ -7,6 +7,7 @@
     font-family: Montserrat;
 }
 
+
 /* Header styling */
 header {
     background-color: white;
@@ -14,6 +15,9 @@ header {
     justify-content: space-between;
     padding: 20px 200px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* position: sticky;
+    top: 0;
+    z-index: 1; */
 }
 
 header ul {
@@ -34,7 +38,7 @@ header a:hover {
     text-decoration-color: #ff6b6b;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1150px) {
     header {
         padding: 20px;
     }
@@ -95,10 +99,26 @@ header a:hover {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1150px) {
+    .hero-text {
+        font-size: 4.2rem;
+        font-weight: 100;
+        line-height: 1.2;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .hero-text {
+        font-size: 3.7rem;
+        font-weight: 100;
+        line-height: 1.2;
+    }
+}
+
+
 /* Second section styling */
 .second-section {
     margin: 7.2rem 5rem;
-    /* max-height: 100vh; */
 }
 
 .second-section .header {
@@ -144,6 +164,60 @@ header a:hover {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1150px) {
+    .second-section .header {
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .second-section {
+        margin: 4.2rem 2rem;
+    }
+
+    .second-section .cards-container {
+        margin: 5rem 0rem;
+        display: flex;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .second-section .header {
+        text-align: start;
+        line-height: 1.3;
+    }
+
+    .second-section .header h1 {
+        font-size: 2rem;
+    }
+
+    .second-section .header p {
+        padding: 1rem 0rem;
+        max-width: 70vw;
+    }
+
+    .second-section {
+        margin: 3.2rem 1rem;
+    }
+
+    .second-section .cards-container {
+        margin: 2.5rem 0rem;
+        display: block;
+        gap: 30px;
+    }
+
+    .second-section .cards-container h3 {
+        margin: 30px 0 20px 0;
+        font-size: 1.1rem;
+    }
+
+    .second-section.cards-container svg {
+        width: 5px;
+        height: 5px;
+    }
+}
+
+
 /* Third section styling */
 .third-section {
     margin: 7rem;
@@ -175,6 +249,7 @@ header a:hover {
     padding: 0 21rem;
 }
 
+
 /* Fourth section styling */
 .fourth-section {
     margin: 10rem 7rem;
@@ -204,6 +279,7 @@ header a:hover {
 .fourth-section .second-cards-container h3 {
     margin-top: 20px;
 }
+
 
 /* Footer styling */
 footer {
@@ -286,4 +362,4 @@ footer .contact-icons svg {
     border-radius: 5px;
 }
 
-/* And finally, We're done!!! */
+/* And finally, We're done!!!😍😉 */
