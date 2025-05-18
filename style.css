@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
 }
 
 
@@ -27,6 +27,10 @@ header ul {
     list-style: none;
     text-transform: uppercase;
     font-weight: 700;
+
+    @media (max-width: 410px) {
+        flex-wrap: wrap;
+    }
 }
 
 header a {
@@ -83,7 +87,7 @@ header a:hover::after {
     height: 93vh;
     width: 100%;
     background-size: cover;
-    background-position: contain;
+    /* background-position: contain; */
 }
 
 .hero .positioning-container {
