@@ -1,7 +1,6 @@
 'use strict';
 
-// Navbar Responsiveness
-// Selecting the participating DOM Elements
+// Navbar Responsiveness and interactivity begins
 const menuBtn = document.querySelector('.btn');
 const menu = document.querySelector('header ul');
 const closeBtn = document.querySelector('header ul i');
@@ -29,3 +28,4 @@ document.addEventListener('click', e => {
     closeMenu();
   }
 });
+// Navbar Responsivness and interactivity ends
