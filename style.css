@@ -160,6 +160,10 @@ header a:hover::after {
     font-weight: 100;
     line-height: 1.2;
   }
+
+  .positioning-container {
+    padding-left: 2rem;
+  }
 }
 
 /* Second section styling */
